@@ -1,0 +1,34 @@
+th, td {
+  width: "relative";
+  min-width: 100px;
+  height: 36px;
+  border: 0.2px solid black;
+  padding: 0px;
+}
+.tableCourse {
+display:inline-block;
+color: black;
+font-size: 13px;
+height: 31px;
+width: 93px;
+padding-top:5px;
+padding-right: 4px;
+padding-left: 4px;
+padding-bottom: -5px;
+}
+.courseOuterDiv {
+flex: 0 1 auto;
+width: inherit;
+flex-grow: 1;
+height: inherit;
+}
+thead {
+width: 25%;
+}
+table{
+border-spacing: 0;
+}
+.wrapper{
+display: inline-block;
+padding: 15px;
+}
